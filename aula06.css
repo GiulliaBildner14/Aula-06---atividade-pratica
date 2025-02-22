@@ -1,0 +1,34 @@
+header {
+    background-color: #1d0b67;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+color: #834f80;
+padding: 20px;
+}
+
+.primeira {
+    padding: 10px;
+    background-color: #311678;
+    color: #834f80;
+}
+
+.segunda {
+    padding: 150px;
+    background-color: #834f80;
+}
+
+.terceira {
+    padding: 150px;
+    background-color: #360b41;
+    color: #834f80;
+}
+ footer {
+    padding: 100px;   
+    background-color: #5a2c9b;
+    color: #1d0b67;
+    font-size: 30px;
+    text-align: center;
+ }
