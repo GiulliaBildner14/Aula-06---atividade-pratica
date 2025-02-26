@@ -2,33 +2,74 @@ header {
     background-color: #1d0b67;
     text-align: center;
     padding: 30px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
+
+
+header img {
+    width: 100px;
+}
+
+
 
 header h1 {
 color: #834f80;
 padding: 20px;
+font-size: 30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .primeira {
     padding: 10px;
     background-color: #311678;
     color: #834f80;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
 }
 
 .segunda {
     padding: 150px;
     background-color: #834f80;
+    text-align: center;
 }
 
-.terceira {
-    padding: 150px;
-    background-color: #360b41;
-    color: #834f80;
+.renato i {
+    font-size: 100px;
+    color: #200581;
 }
+
+
+.terceira {
+    padding: 200px;
+    background-image: url(imagens/pexels-roman-odintsov-4551618.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    align-items: center; 
+}
+
+.terceira button {
+    width: 150px;
+    padding: 10px;
+    background-color: #834f809d;
+    color: #1d0b67;
+    border-radius: 5px;
+}
+
  footer {
     padding: 100px;   
     background-color: #5a2c9b;
     color: #1d0b67;
     font-size: 30px;
     text-align: center;
+ }
+
+ .footer i {
+    font-size: 40px;
  }
